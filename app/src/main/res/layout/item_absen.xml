@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="5dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/tittle_jam_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jam Login"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_margin="7dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <TextView
+            android:id="@+id/tittle_jam_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jam Logout"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_margin="7dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tittle_jam_login" />
+
+        <TextView
+            android:id="@+id/tittle_tanggal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tanggal"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_margin="7dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tittle_jam_logout" />
+
+        <TextView
+            android:id="@+id/tittle_lokasi_latitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lokasi Latitude"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_margin="7dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tittle_tanggal" />
+
+        <TextView
+            android:id="@+id/tittle_lokasi_longitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lokasi Longitude"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_margin="7dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tittle_lokasi_latitude"
+            />
+
+        <TextView
+            android:id="@+id/tittle_namasiswa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_margin="7dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tittle_lokasi_longitude"
+            />
+
+        <TextView
+            android:id="@+id/tittle_alamatsiswa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alamat"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_margin="7dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tittle_namasiswa"
+            />
+
+        <TextView
+            android:id="@+id/tittle_nimsiswa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nim"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_margin="7dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tittle_alamatsiswa"
+            />
+
+
+        <TextView
+            android:id="@+id/txt_jam_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_margin="7dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/txt_jam_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_margin="7dp"
+            app:layout_constraintTop_toBottomOf="@id/txt_jam_login"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/txt_tanggal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_margin="7dp"
+            app:layout_constraintTop_toBottomOf="@id/txt_jam_logout"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <TextView
+            android:id="@+id/txt_lokasi_latitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_margin="7dp"
+            app:layout_constraintTop_toBottomOf="@id/txt_tanggal"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <TextView
+            android:id="@+id/txt_lokasi_longitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_margin="7dp"
+            app:layout_constraintTop_toBottomOf="@id/txt_lokasi_latitude"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <TextView
+            android:id="@+id/txt_namasiswa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_margin="7dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txt_lokasi_longitude"/>
+
+        <TextView
+            android:id="@+id/txt_alamatsiswa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_margin="7dp"
+            app:layout_constraintTop_toBottomOf="@id/txt_namasiswa"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <TextView
+            android:id="@+id/txt_nimsiswa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_margin="7dp"
+            app:layout_constraintTop_toBottomOf="@id/txt_alamatsiswa"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

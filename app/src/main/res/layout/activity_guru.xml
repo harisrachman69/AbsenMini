@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF55EB"
+    tools:context=".GuruActivity">
+
+<!--    <include android:id="@+id/item_profil" layout="@layout/item_guru"/>-->
+    <TextView
+        android:id="@+id/absensijudul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="ABSENSI YUKKKKK"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/rv_guru"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center_horizontal" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_absen"
+        android:layout_width="match_parent"
+        android:layout_height="475dp"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/absensijudul"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_exit_to_app_black_24dp"
+        android:layout_margin="15dp"
+        android:backgroundTint="#AB0B98"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:fabSize="normal"
+        app:borderWidth="0dp"
+        app:elevation="7dp"
+        android:onClick="onClickLogout"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:background="#555FD2"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tittle_nim_siswa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nim"
+            android:textColor="#FFFFFF"
+            android:layout_margin="7dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <TextView
+            android:id="@+id/tittle_nama_siswa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Siswa"
+            android:textColor="#FFFFFF"
+            android:layout_margin="7dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tittle_nim_siswa" />
+
+        <TextView
+            android:id="@+id/tittle_alamat_siswa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alamat"
+            android:textColor="#FFFFFF"
+            android:layout_margin="7dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tittle_nama_siswa" />
+
+        <TextView
+            android:id="@+id/tittle_jenis_kelamin_siswa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jenis Kelamin"
+            android:textColor="#FFF"
+            android:layout_margin="7dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tittle_alamat_siswa" />
+
+        <TextView
+            android:id="@+id/tittle_tanggal_lahir_siswa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Lahir"
+            android:textColor="#FFFFFF"
+            android:layout_margin="7dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tittle_jenis_kelamin_siswa" />
+
+        <TextView
+            android:id="@+id/tittle_kelas_siswa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kelas"
+            android:textColor="#FFFFFF"
+            android:layout_margin="7dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tittle_tanggal_lahir_siswa"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <TextView
+            android:id="@+id/txt_nim_siswa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textColor="#FFFFFF"
+            android:layout_margin="7dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/txt_nama_siswa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:textColor="#FFFFFF"
+            android:layout_margin="7dp"
+            app:layout_constraintTop_toBottomOf="@id/txt_nim_siswa"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/txt_alamat_siswa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:textColor="#FFFFFF"
+            android:layout_margin="7dp"
+            app:layout_constraintTop_toBottomOf="@id/txt_nama_siswa"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <TextView
+            android:id="@+id/txt_jenis_kelamin_siswa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:textColor="#FFFFFF"
+            android:layout_margin="7dp"
+            app:layout_constraintTop_toBottomOf="@id/txt_alamat_siswa"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <TextView
+            android:id="@+id/txt_tanggal_lahir_siswa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:textColor="#FFFFFF"
+            android:layout_margin="7dp"
+            app:layout_constraintTop_toBottomOf="@id/txt_jenis_kelamin_siswa"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <TextView
+            android:id="@+id/txt_kelas_siswa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6"
+            android:textColor="#FFFFFF"
+            android:layout_margin="7dp"
+            app:layout_constraintTop_toBottomOf="@id/txt_tanggal_lahir_siswa"
+            app:layout_constraintEnd_toEndOf="parent"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
